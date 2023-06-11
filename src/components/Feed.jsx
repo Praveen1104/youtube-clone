@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 import Yvideos from "./Yvideos";
 import { fetchApi } from "../utils/Fetchapi";
 const Feed = () => {
-  const [selectedcategory, setselectedcategory] = useState("JSMastery");
+  const [selectedcategory, setselectedcategory] = useState("New");
   const [videos, setvideos] = useState([]);
   useEffect(() => {
     console.log("hi");
